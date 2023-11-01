@@ -12,6 +12,18 @@
       crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
+    <style>
+      .navbar-nav .nav-item:not(:last-child) a:hover {
+        color: white !important;
+      }
+
+      .br:hover {
+        filter: brightness(150%);
+        transition: 0.5s;
+  }     
+    </style>
+
+
   </head>
   <body class="bg-black text-white mt-4">
     <!-- TODOs: -->
@@ -37,14 +49,14 @@
                 <a class="nav-link active fw-semibold fs-5 px-3" aria-current="page" href="#"  style="color: #a3a3a3">Sell with us</a>
               </li>
               <li class=" nav-item text-black btn btn-light rounded-pill fw-semibold fs-5 px-4" id="get-app">
-                <a class=" orange nav-link active" aria-current="page" href="#get-app" style="color:black">Get the app</a>
+                <a class="nav-link active" aria-current="page" href="#get-app" style="color:black">Get the app</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
 
-      <header class="d-flex flex-column row-gap-3 text-lg-center pt-5 mb-5">
+      <header class="d-flex flex-column text-lg-center pt-5 mb-5">
         <h1 class="fw-bold mb-4 mt-3 pt-5 display-1">
           Brew the perfect cup of coffee<br />
           <span class="text-warning">every time.</span>
@@ -59,7 +71,7 @@
        </div>
        </div>
 
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center mt-4">
           <button
             class="btn btn-lg bg-warning text-black fw-bold rounded-4 py-3 px-5"
           >
@@ -67,10 +79,10 @@
           </button>
         </div>
 
-        <div class="d-flex justify-content-center gap-2">
+        <div class="d-flex justify-content-center gap-2 mt-3">
           <a href="/">
             <img
-              height="48"
+              height="60"
               class="w-auto"
               src="https://getfiltru.com/home/app-store-badge.png"
               alt="download from App Store'"
@@ -79,7 +91,7 @@
 
           <a href="/">
             <img
-              height="48"
+              height="60"
               class="w-auto"
               src="https://getfiltru.com/home/play-store-badge.png"
               alt="download from Google Play'"
@@ -133,7 +145,7 @@
         <section>
           <div class="pt-5">
             <h2
-              class="fs-4 text-center text-uppercase mt-5"
+              class="fs-4 text-center text-uppercase mt-5 pt-5"
               style="color: #a3a3a3"
             >
               AVAILABLE NOW FOR IPHONE AND IPAD
@@ -143,16 +155,16 @@
             </h3>
           </div>
 
-          <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 row-gap-5 pt-5 pb-5">
+          <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-gap-5 pt-5 pb-5">
             <div class="col">
               <div class="d-flex gap-2">
                 <div
-                  class="bg-secondary bg-opacity-25 rounded-4"
-                  style="height: 100px; width: 100px"
+                  class="bg-secondary bg-opacity-25 rounded-4 me-2"
+                  style="height: 80px; width: 80px"
                 >
                   <img
                     src="https://getfiltru.com/images/Chemex.png"
-                    width="100"
+                    width="80"
                   />
                 </div>
                 <div>
@@ -167,12 +179,12 @@
             <div class="col">
               <div class="d-flex gap-2">
                 <div
-                  class="bg-secondary bg-opacity-25 rounded-4"
-                  style="height: 100px; width: 100px"
+                  class="bg-secondary bg-opacity-25 rounded-4 me-2"
+                  style="height: 80px; width: 80px"
                 >
                   <img
                     src="https://getfiltru.com/images/Espresso.png"
-                    width="100"
+                    width="80"
                   />
                 </div>
                 <div>
@@ -188,12 +200,12 @@
             <div class="col">
               <div class="d-flex gap-2">
                 <div
-                  class="bg-secondary bg-opacity-25 rounded-4"
-                  style="height: 100px; width: 100px"
+                  class="bg-secondary bg-opacity-25 rounded-4 me-2"
+                  style="height: 80px; width: 80px"
                 >
                   <img
                     src="https://getfiltru.com/images/AR Mode.png"
-                    width="100"
+                    width="80"
                   />
                 </div>
                 <div>
@@ -208,12 +220,12 @@
             <div class="col">
               <div class="d-flex gap-2">
                 <div
-                  class="bg-secondary bg-opacity-25 rounded-4"
-                  style="height: 100px; width: 100px"
+                  class="bg-secondary bg-opacity-25 rounded-4 me-2"
+                  style="height: 80px; width: 80px"
                 >
                   <img
                     src="https://getfiltru.com/images/Coffee Beans.png"
-                    width="100"
+                    width="80"
                   />
                 </div>
                 <div>
@@ -228,12 +240,12 @@
             <div class="col">
               <div class="d-flex gap-2">
                 <div
-                  class="bg-secondary bg-opacity-25 rounded-4"
-                  style="height: 100px; width: 100px"
+                  class="bg-secondary bg-opacity-25 rounded-4 me-2"
+                  style="height: 80px; width: 80px"
                 >
                   <img
                     src="https://getfiltru.com/images/Scale.png"
-                    width="100"
+                    width="80"
                   />
                 </div>
                 <div>
@@ -248,12 +260,12 @@
             <div class="col">
               <div class="d-flex gap-2">
                 <div
-                  class="bg-secondary bg-opacity-25 rounded-4"
-                  style="height: 100px; width: 100px"
+                  class="bg-secondary bg-opacity-25 rounded-4 me-2"
+                  style="height: 80px; width: 80px"
                 >
                   <img
                     src="https://getfiltru.com/images/Automation.png"
-                    width="100"
+                    width="80"
                   />
                 </div>
                 <div>
@@ -280,14 +292,14 @@
           <div class="row row-cols-lg-2 row-cols-sm-1 row-gap-5 pt-5">
             <div class="col-xl-6 col-lg-12">
               <div
-                class="bg-secondary bg-opacity-25 rounded-4 text-center"
+                class="bg-secondary bg-opacity-25 rounded-4 text-center d-flex flex-column"
                 style="height: 690px"
               >
                 <p class="fs-2 fw-semibold pt-5">Record your shot</p>
                 <p style="color: #a3a3a3" class="fs-5">
                   Record your espresso shots with a Bluetooth scale or without.
                 </p>
-                <div class="pt-5 mt-5" style="height: 500px; overflow: hidden">
+                <div class="pt-5 mt-5" style="max-height: 500px; overflow: hidden;">
                   <img
                     src="https://getfiltru.com/images/Espresso%20-%20Timer.png"
                     width="300"
@@ -297,7 +309,7 @@
             </div>
             <div class="col-xl-6 col-lg-12">
               <div
-                class="bg-secondary bg-opacity-25 rounded-4 text-center"
+                class="bg-secondary bg-opacity-25 rounded-4 text-center d-flex flex-column"
                 style="height: 690px"
               >
                 <p class="fs-2 fw-semibold pt-5">Dial in your grind</p>
@@ -305,7 +317,9 @@
                   Use taste profile or extraction calculator to compare and
                   improve the flavour of your coffee.
                 </p>
+                <div>
                 <img src="https://getfiltru.com/images/graph.png" width="350" />
+                </div>
                 <p class="fw-semibold text-center pb-5 pt-4">
                   Filtru will gradually suggest whether to adjust the grind<br />
                   or dose to help you get better shot.
@@ -314,7 +328,7 @@
             </div>
             <div class="col-xl-6 col-lg-12">
               <div
-                class="bg-secondary bg-opacity-25 rounded-4 text-center"
+                class="bg-secondary bg-opacity-25 rounded-4 text-center d-flex flex-column"
                 style="height: 690px"
               >
                 <p class="fs-2 fw-semibold pt-5">Calculate extraction</p>
@@ -322,7 +336,7 @@
                   With the use of a refractometer you can keep a journal of the
                   extraction process.
                 </p>
-                <div style="height: 500px; overflow: hidden" class="pt-5">
+                <div style="max-height: 500px; overflow: hidden" class="pt-5 mt-3">
                   <img
                     src="https://getfiltru.com/images/Espresso - Extraction.png"
                     width="300"
@@ -332,7 +346,7 @@
             </div>
             <div class="col-xl-6 col-lg-12">
               <div
-                class="bg-secondary bg-opacity-25 rounded-4"
+                class="bg-secondary bg-opacity-25 rounded-4 d-flex flex-column gap-3"
                 style="height: 690px"
               >
                 <p class="fs-2 fw-semibold pt-5 text-center">
@@ -359,7 +373,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-12">
+                  <div class="col-12 mt-3">
                     <div class="d-flex gap-2">
                       <div
                         class="bg-secondary bg-opacity-25 rounded-4 mx-4"
@@ -381,7 +395,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-12">
+                  <div class="col-12 mt-3">
                     <div class="d-flex gap-2">
                       <div
                         class="bg-secondary bg-opacity-25 rounded-4 mx-4"
@@ -453,13 +467,13 @@
                   <p class="fs-2 fw-semibold pt-5 text-center">
                     Real-time feedback
                   </p>
-                  <p style="color: #a3a3a3" class="fs-5 text-center">
+                  <p style="color: #a3a3a3" class="fs-5 text-center pb-xl-5">
                     Record, review, and improve your pour over coffee over time
                     with help from a coffee scale.
                   </p>
                   <div class="row gap-lg-4 gap-md-1 mx-3 pt-lg-4 pt-md-0 m-md-0">
                     <div class="col-12">
-                      <div class="d-flex gap-4 pt-5">
+                      <div class="d-flex gap-4 pt-5 pt-lg-0">
                         <div
                           class="bg-secondary bg-opacity-25 rounded-4"
                           style="height: 80px; max-width: 80px"
@@ -469,7 +483,7 @@
                             width="80"
                           />
                         </div>
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column mb-sm-2">
                           <p class="fw-semibold mb-0">Hit the target</p>
                           <p style="color: #a3a3a3">
                             Filtru shows the target weight at step of the recipe
@@ -490,7 +504,7 @@
                             width="80"
                           />
                         </div>
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column mb-sm-2">
                           <p class="fw-semibold mb-0">Optimal Flow rate</p>
                           <p style="color: #a3a3a3">
                             The app records a flow-rate to help you get an even
@@ -500,7 +514,7 @@
                       </div>
                     </div>
                     <div class="col-12">
-                      <div class="d-flex gap-4">
+                      <div class="d-flex gap-4 mt-sm-3">
                         <div
                           class="bg-secondary bg-opacity-25 rounded-4"
                           style="height: 80px; width: 80px"
@@ -533,18 +547,18 @@
             Supported Bluetooth scales
           </p>
           <div class="row row-cols-md-3 row-cols-sm-12">
-            <div class="col my-md-4">
+            <div class="col br my-md-4">
             <div
               class="bg-secondary bg-opacity-25 rounded-4"
             style="height: 550px;">
-              <div class="bg-dark bg-opacity-25">
+              <div class="bg-black bg-opacity-25">
                 <img
                 class="mx-lg-auto img-fluid"
                 style="height: 250px;"
                   src="https://getfiltru.com/images/Scale%20-%20Acaia.png"
                 />
               </div>
-              <div class="bg-secondary bg-opacity-25 px-5 pb-5" style="height: 300px;">
+              <div class=" px-5 pb-5" style="height: 300px;">
                 <p class="text-center fw-bold fs-3 pt-3">Acaia</p>
                 <hr />
                 <p class="mb-0">Acaia Pearl S</p>
@@ -556,16 +570,16 @@
             </div>
           </div>
 
-          <div class="col my-md-4 col-sm-12 my-sm-4">
+          <div class="col br my-md-4 col-sm-12 my-sm-4">
             <div class="bg-secondary bg-opacity-25 rounded-4" style="height: 550px;">
-              <div class="bg-dark bg-opacity-25">
+              <div class="bg-black bg-opacity-25">
                 <img
                   class="mx-lg-auto img-fluid"
                   style="height: 250px;"
                   src="https://getfiltru.com/images/Scale%20-%20Felicita.png"
                 />
               </div>
-              <div class="bg-secondary bg-opacity-25 px-5" style="height: 300px;">
+              <div class="px-5" style="height: 300px;">
                 <p class="text-center fw-bold fs-3 pt-3">Felicita</p>
                 <hr />
                 <p class="mb-0">Felicita Incline</p>
@@ -575,9 +589,9 @@
             </div>
             </div>
 
-            <div class="col my-md-4 col-sm-12">
+            <div class="col br my-md-4 col-sm-12">
             <div class="bg-secondary bg-opacity-25 rounded-4" style="height: 550px;">
-              <div class="bg-dark bg-opacity-25">
+              <div class="bg-black bg-opacity-25">
                 <img
                 class="mx-lg-auto img-fluid"
                 style="height: 250px;"
@@ -585,7 +599,7 @@
                 />
               </div>
               <div
-                class="bg-secondary bg-opacity-25 px-4 " style="height: 300px;"
+                class="px-4 " style="height: 300px;"
               >
                 <p class="text-center fw-bold fs-3 pt-3">and others:</p>
                 <hr />
